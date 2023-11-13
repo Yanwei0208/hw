@@ -1,0 +1,55 @@
+* {
+  font-family:"標楷體";
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+h1 {
+  color:black;
+  font-size:60px;  
+}
+
+h2 {
+  color:black;
+  font-size:40px;
+}
+
+body {
+  background-color: DimGray; 
+}
+
+#table-container {
+  position: absolute;
+  bottom: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100%; 
+  margin: 0 auto;
+}
+
+#cell1 {
+  height: 500px;
+} 
+
+#cell2 {
+  height: 500px;  
+}
+
+#cell3 {
+   height:500px;
+}
+span {
+  display: inline-block;
+  writing-mode: horizontal-tb;
+  text-align: center;
+  white-space: nowrap; 
+  font-size: 40px;
+}
+span2{
+  display: inline-block;
+  writing-mode: horizontal-tb;
+  text-align: center;
+  white-space: nowrap; 
+  font-size: 30px;
+}
